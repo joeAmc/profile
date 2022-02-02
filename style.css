@@ -1,0 +1,116 @@
+/* img {
+  height: 100px;
+  width: auto;
+} */
+
+body {
+  background : rgb(235, 234, 234);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #4b4b4d;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 5px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(229 48 48);
+  font-weight: 700;
+  padding-top: 1px;
+  font-size: 50px;
+}
+
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.cards {
+  background: white;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(71, 71, 71, 0.1);
+}
+
+ a {
+   color:rgb(158, 156, 156);
+   text-decoration: none;
+
+ }
+
+ .btn:hover {
+  color: rgb(165, 128, 154);
+  border: 1px solid rgb(165, 128, 154);
+  text-decoration: none;
+}
+
+img {
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px, 5px, 5px, rgb(94, 93, 93);
+  padding: 10px;
+}
+
+p {
+  padding-bottom: 25px;
+}
+
+.btn {
+  background: rgb(245, 242, 242);
+  padding: 7px;
+  width: 20px;
+  border: 1px solid rgb(158, 156, 156);
+  border-radius: 7px;
+}
+
+.ul-list > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style-type: none;
+  color: #297281;
+  height: 20px;
+  width: auto;
+  opacity: 0.8;
+  font-size: 40px;
+}
+
+li {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.icons {
+  color: #297281;
+}
